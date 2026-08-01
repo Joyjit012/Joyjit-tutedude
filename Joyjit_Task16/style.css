@@ -1,0 +1,140 @@
+.top-level{
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+    padding: 20px 40px;
+    border-bottom: 2px solid #d1d5db;
+    width: 95%;
+}
+
+.username h2{
+    margin: 0;
+    color: #333;
+    margin-left: 0px ;
+
+}
+
+.login button{
+    padding: 10px 20px;
+    background: #2563eb;
+    color: white;
+   margin-right: 0px ;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.login button:hover{
+    background: #1d4ed8;
+}
+.card-container{
+     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 40px;
+     
+}
+
+.card-container::-webkit-scrollbar{
+    height: 8px;
+}
+
+.card-container::-webkit-scrollbar-thumb{
+    background: #2563eb;
+    border-radius: 10px;
+}
+
+
+.headline{
+    padding: 20px 40px;
+}
+
+.headline h1{
+    margin-left: 0;
+    text-align: left;
+    text-decoration: underline;
+}
+
+
+
+.student-card{
+    width: 280px;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.top-bar{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;   
+    margin: 20px 0;
+}
+
+.search-container{
+    display: flex;
+    background: transparent;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+     padding: 20px 40px;
+}
+
+.search-container input{
+    width: 300px;
+    padding: 12px 15px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #bdbdbd;
+    outline: none;
+    font-size: 16px;
+}
+
+.search-container input{
+    width: 300px;
+    padding: 12px 15px;
+    background-color: #f3f4f6;  
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+    color: #555;
+}
+
+.search-container input:focus{
+    border-bottom: 2px solid #2563eb;
+}
+
+.search-container button{
+    padding: 12px 20px;
+    background-color: #2563eb;
+    color: white ;
+    border: none;
+    margin-left: 0px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.search-container button:hover{
+    background-color: #1d4ed8;
+}
+
+
+.not-found{
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+    color: #666;
+}
+
+.not-found h2{
+    color: rgb(7, 5, 5);
+    margin-bottom: 10px;
+}
+
+.not-found p{
+    font-size: 16px;
+}
