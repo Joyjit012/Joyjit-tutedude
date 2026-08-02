@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page of Laundry Services</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="header">
+            <div class="logo">
+
+                <img src="https://img.magnific.com/premium-vector/simple-laundry-logo_756483-88.jpg?semt=ais_hybrid&w=740&q=80" alt="laundry logo">
+            </div>
+
+            <div class="navi">
+                <div class="option">
+                    <p>Home</p>
+                </div>
+
+                <div class="option">
+                    <p>Services</p>
+                </div>
+
+                <div class="option">
+                    <p>Contact Us</p>
+                </div>
+
+                <div class="option">
+                    <p>About Us</p>
+                </div>
+
+            </div>
+
+
+            <div class="username">
+                <button>username</button>
+                <button>logout</button>
+            </div>
+
+
+
+        </div>
+
+        <!-- Footer section --> 
+
+
+        <div class="footer">
+
+            <div class="left">
+
+                <div class="addSection">
+                    <p>Added Items</p>
+
+
+                     <table>
+        <thead>
+            <tr>
+                <th>S No.</th>
+                <th>Service Name</th>
+                <th>Price</th>
+            </tr>
+
+            
+        </thead>
+
+        <tbody id="serviceTable">
+            
+    <tr id="emptyRow">
+        <td colspan="3" class="empty-message">
+            <div class="empty-box">
+                <h3>No Items Added</h3>
+                <p>Add items to the cart from the services list.</p>
+            </div>
+        </td>
+    </tr>
+</tbody>
+        
+    </table>
+
+    <div class="total-amount">
+    <h3>Total Amount</h3>
+    <h3 id="totalPrice">₹ 0</h3>
+</div>
+</div>
+
+
+
+               
+<div class="bookSection">
+<div class="input-section">
+    <p>Book Now</p>
+    <div class="name">
+
+    <label for="name">Your Name :</label>
+    <input type="text" id="name" placeholder="    Enter   Your   Full   Name" required>
+    </div>
+
+    <div class="email-number">
+        <div class="email">
+
+    <label for="email">Email :</label>
+    <input type="email" id="email" placeholder=" abc@gmail.com" required>
+    
+</div>
+<div class="number">
+    <label for="number"> Phone Number :</label>
+    <input type="number" id="number" placeholder=" 91+XXXXXXXXXX" required>
+    </div>
+    </div>
+
+    <div class="book-btn">
+        <button id="bookBtn">Book Now</button>
+    </div>
+</div>
+</div>
+
+
+                </div>
+
+
+
+
+               
+
+                
+           
+<!-- Right Section -->
+
+            <div class="right">
+                
+<div class="service-header">
+        <h2>Browse Our Services</h2>
+        <p>Click on the Add to Cart button to add the services to your cart.</p>
+    </div>
+
+    <div class="service-card">
+
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/026/721/193/small/washing-machine-and-laundry-laundry-sticker-png.png" alt="Laundry Service">
+
+        <div class="service-info">
+            <h3>Dry Cleaning</h3>
+            <span>₹200.00</span>
+
+            
+        </div>
+        
+        
+
+        <div class="service-btn">
+
+            <button class="skip-btn">Skip Item</button>
+
+            <button class="add-btn">Add Item +</button>
+
+        </div>
+        </div>
+         <div class="service-card">
+
+         <div class="service-info">
+            <h3>Ironing</h3>
+            <span>₹80.00</span>
+
+        </div>
+        <div class="service-btn">
+
+            <button class="skip-btn">Skip Item</button>
+
+            <button class="add-btn">Add Item +</button>
+
+        </div>
+        </div>
+
+         <div class="service-card">
+        <div class="service-info">
+            <h3>Washing </h3>
+            <span>₹100.00</span>
+
+
+        </div>
+        <div class="service-btn">
+
+            <button class="skip-btn">Skip Item</button>
+
+            <button class="add-btn">Add Item +</button>
+
+        </div>
+        </div>
+         <div class="service-card">
+        <div class="service-info">
+            <h3>Blanket Cleaning</h3>
+            <span>₹360.00</span>
+
+
+        </div>
+        <div class="service-btn">
+
+            <button class="skip-btn">Skip Item</button>
+
+            <button class="add-btn">Add Item +</button>
+
+        </div>
+
+    </div>
+
+    <p class="note">
+        Add the items to the cart and book now.
+    </p>
+</div>
+            </div>
+            </div>
+
+ </div>
+
+        
+    
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
