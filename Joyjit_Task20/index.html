@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 20 : A laundry Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBpPB8EWEthgDvJ50vtD-umCbqfUOcn_ooc1pPZfTVJuPZvFa7EaVeq0zS&s=10h" alt="">
+            </div>
+
+            <div class="navi">
+                <div class="option">
+                    <p>Home</p>
+                </div>
+
+                <div class="option">
+                    <p>Services</p>
+                </div>
+
+                <div class="option">
+                    <p>Contact Us</p>
+                </div>
+
+                <div class="option">
+                    <p>About Us</p>
+                </div>
+
+            </div>
+
+            <div class="username">
+
+                <button id="btn">username</button>
+            </div>
+
+            
+        </div>
+
+
+        <!-- Mid-container section -->
+
+
+        <div class="mid-container">
+<div class="content">
+            <div class="left">
+                <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, id!</h1>
+                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, debitis earum ipsam eligendi non eum blanditiis unde enim ab magni similique omnis odio accusamus vitae. Magnam aut iure itaque dicta delectus accusamus rem rerum?</h4>
+
+
+             <button id="heroBtn"> Book A Service today !</button>
+            </div>
+
+            <div class="right">
+               <img src="https://aws-obg-image-lb-3.tcl.com/content/dam/iffalcon/product/wm/8kg-fully-auto-front-load/product/SideView_1.png" alt="washing img">
+            </div>
+</div>
+<!-- Achievement Section -->
+<div class="achive-section">
+    <h2>Our Achievements</h2>
+
+    <div class="records">
+        <div class="card">
+            <h3>10K+</h3>
+            <p>Happy Customers</p>
+        </div>
+
+        <div class="card">
+            <h3>500+</h3>
+            <p>Expert Staff</p>
+        </div>
+
+        <div class="card">
+            <h3>24/7</h3>
+            <p>Support</p>
+        </div>
+
+        <div class="card">
+            <h3>99%</h3>
+            <p>Customer Satisfaction</p>
+        </div>
+    </div>
+            
+           
+             
+        </div>
+
+
+        <!-- service section -->
+
+        <div class="service-section" id="service-section">
+            <div class="leftSection">
+                <h1>Our Services</h1>
+                <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto totam harum dolore!</h4>
+                
+<div class="line"></div>
+
+                <div class="items">
+                    <p>Dry Cleaning - <span class="blue">₹200.00</span></p>
+                    <button class="itemBtn">Add item +</button>
+                </div>
+                <div class="items">
+                    <p>Wash & Flod - <span class="blue">₹200.00</span></p>
+                    <button class="itemBtn">Add item +</button>
+                </div>
+                <div class="items">
+                    <p>Ironing - <span class="blue">₹200.00</span></p>
+                    <button class="itemBtn">Add item +</button>
+                </div>
+                <div class="items">
+                    <p>Blanket Cleaning - <span class="blue">₹200.00</span></p>
+                    <button class="itemBtn">Add item +</button>
+                </div>
+                <div class="items">
+                    <p>Dry Cleaning - <span class="blue">₹200.00</span></p>
+                    <button class="itemBtn">Add item +</button>
+                </div>
+                <div class="items">
+                    <p>Dry Cleaning - <span class="blue">₹200.00</span></p>
+                    <button class="itemBtn">Add item +</button>
+                </div>
+                <div class="items">
+                    <p>Dry Cleaning - <span class="blue">₹200.00</span></p>
+                    <button class="itemBtn">Add item +</button>
+                </div>
+                <div class="line"></div>
+                <h5> ⊕  Add  the items to the cart and Book now. </h5>
+            </div>
+            
+
+<!-- 
+            right section -->
+
+            <div class="rightSection">
+
+                <div class="addSection" id="addSection">
+                    <p>Added Items</p>
+
+
+                     <table>
+        <thead>
+            <tr>
+                <th>S No.</th>
+                <th>Service Name</th>
+                <th>Price</th>
+            </tr>
+
+            
+        </thead>
+
+        <tbody id="serviceTable">
+            
+    <tr id="emptyRow">
+        <td colspan="3" class="empty-message">
+            <div class="empty-box">
+                <h3>No Items Added</h3>
+                <p>Add items to the cart from the services list.</p>
+            </div>
+        </td>
+    </tr>
+</tbody>
+        
+    </table>
+
+    <div class="total-amount">
+    <h3>Total Amount</h3>
+    <h3 id="totalPrice">₹ 0</h3>
+</div>
+</div>
+
+             
+
+<div class="input-section">
+    <p>Book Now</p>
+    <div class="name">
+
+    <label for="name">Your Name :</label>
+    <input type="text" id="name" placeholder="    Enter   Your   Full   Name" required>
+    </div>
+
+    <div class="email-number">
+        <div class="email">
+
+    <label for="email">Email :</label>
+    <input type="email" id="email" placeholder=" abc@gmail.com" required>
+    
+</div>
+<div class="number">
+    <label for="number"> Phone Number :</label>
+    <input type="number" id="number" placeholder=" 91+XXXXXXXXXX" required>
+    </div>
+    </div>
+
+    <div class="book-btn">
+        <button id="bookBtn">Book Now</button>
+       
+        <p id="successMessage"></p>
+    </div>
+</div>
+
+            </div>
+
+        </div>
+
+
+        
+
+         
+
+       
+
+
+
+
+       
+
+
+
+
+    </div>
+    <div class="otherFeatures">
+        
+            <div class="symbol">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3sJPT40BSJ4A3ctBKDZXnXihBgvlLirJV9WKtQ5K1OCnseJ46Gc-oRR_U&s=10" alt="logo">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod aperiam quasi, animi ne.</p>
+
+            </div>
+
+            <div class="symbol">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3sJPT40BSJ4A3ctBKDZXnXihBgvlLirJV9WKtQ5K1OCnseJ46Gc-oRR_U&s=10" alt="logo">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod aperiam quasi, animi ne.</p>
+                
+            </div>
+
+            <div class="symbol">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3sJPT40BSJ4A3ctBKDZXnXihBgvlLirJV9WKtQ5K1OCnseJ46Gc-oRR_U&s=10" alt="logo">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod aperiam quasi, animi ne.</p>
+                
+            </div>
+
+            <div class="symbol">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3sJPT40BSJ4A3ctBKDZXnXihBgvlLirJV9WKtQ5K1OCnseJ46Gc-oRR_U&s=10" alt="logo">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod aperiam quasi, animi ne.</p>
+                
+            </div>
+            </div>
+            
+            <div class="subscribe">
+            <div class="heading">
+                <h1>Subscribe To Our Newsletter</h1>
+            </div>
+<div class="inputs">
+            <div class="form">
+                 
+    <input type="text" id="name" placeholder="  Name" required>
+
+    
+    <input type="email" id="email" placeholder="  Email" required>
+
+            </div>
+            <div class="btn">
+                <button id="subsBtn">Subscribe</button>
+            </div>
+            </div>
+        </div>
+
+        <div class="contact">
+
+            <div class="first-part">
+
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBpPB8EWEthgDvJ50vtD-umCbqfUOcn_ooc1pPZfTVJuPZvFa7EaVeq0zS&s=10h" alt="">
+                <h4>About us</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut cumque est eius deleniti. Eius, quibusdam illo nulla voluptas iusto atque ut tempora excepturi?
+
+                </p>
+
+            </div>
+            <div class="second-part">
+                <h2>Important Links :</h2>
+                <p>About us</p>
+                <p>Privacy Policy</p>
+                <p>Contact Us</p>
+                <p>TErms of Use</p>
+                <p>Refund Policy</p>
+
+            </div>
+            <div class="third-part">
+                <h2>Contact Us :</h2>
+                <p>laundry@gmail.com</p>
+                <p>91+ 8763472368 / 91+ 96374843732</p>
+
+            </div>
+            <div class="fourth-part">
+                <h2>Follow Us</h2>
+                <div class="images">
+                <span><img src="https://static.vecteezy.com/system/resources/thumbnails/023/986/885/small/instagram-logo-instagram-logo-transparent-instagram-icon-transparent-free-free-png.png" alt=""></span>
+                <span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3icECWzbOBYS_HJeXvCfU6lnWoufMPkogE9kOPKSAjA&s=10" alt=""></span>
+                <span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9-XSrmVtnxyc1Bt9HXAe6GJrnJzMQ-S01af1lLgIg8g&s=10" alt=""></span>
+                <span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf0c4i49cDEd6tE0ds6yv2Zd2Ksn0QQc3vZARDVmF_jA&s=10" alt=""></span>
+                </div>
+            </div>
+        </div>
+
+
+
+        
+
+        </div>
+
+    <script src="script.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script>
+emailjs.init({
+    publicKey: "j06vb5U6VWlOr0bjY"
+});
+</script>
+
+<script src="email.js"></script>
+</body>
+</html>

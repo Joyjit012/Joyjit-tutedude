@@ -1,106 +1,72 @@
 # JavaScript DOM & Event Handling Project
 
-## 📌 Overview
+## About
 
-This project demonstrates the basics of **DOM Manipulation** and **Event Handling** using Vanilla JavaScript.
+This is a simple JavaScript project to practice **DOM Manipulation** and **Event Handling**.
 
-Users can:
+In this project, the user can:
 
-* Enter their name.
-* Display a personalized greeting.
-* Change the greeting section's background color.
-* Click on colored boxes to change their background colors.
-
----
-
-## 🚀 Features
-
-* 📝 User name input
-* 👋 Dynamic greeting message
-* 🎨 Background color changes after greeting
-* 🖱️ Clickable color boxes
-* 💻 Built with HTML, CSS, and JavaScript only
+- Enter a name
+- Show a greeting message
+- Change the greeting background color
+- Click on color boxes to change their colors
 
 ---
 
-## 📂 Project Structure
+## Files
 
-```text
+```
 project-folder/
-│
-├── index.html
-├── style.css
-├── script.js
-└── README.md
+│── index.html
+│── style.css
+│── script.js
+│── README.md
 ```
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
-* HTML5
-* CSS3
-* JavaScript (ES6)
+- HTML
+- CSS
+- JavaScript
 
 ---
 
-## ⚙️ How to Run
+## How to Run
 
-1. Clone or download this repository.
+1. Download or clone the project.
 2. Open the project folder.
-3. Open `index.html` in your browser.
+3. Open index.html in your browser.
 
-No additional installation or dependencies are required.
-
----
-
-## 📖 Functionality
-
-### Greeting Section
-
-* Enter your name in the input field.
-* Click the **Greet** button.
-* The page displays:
-
-```text
-Hello, YourName!
-```
-
-* The greeting section's background color changes.
-
-### Color Boxes
-
-Click any box to change its background color.
-
-Example:
-
-| Box   | Color  |
-| ----- | ------ |
-| Box 1 | Red    |
-| Box 2 | Yellow |
-| Box 3 | Green  |
-| Box 4 | Blue   |
+No installation is needed.
 
 ---
 
-## 📚 Concepts Practiced
+## Features
 
-* DOM Selection
-* Event Listeners
-* Functions
-* Arrays
-* forEach()
-* style Manipulation
-* innerHTML
-* textContent
+- User can enter their name.
+- Greeting message is shown after clicking the button.
+- Greeting section changes its background color.
+- Clicking a color box changes its color.
 
 ---
 
+## What I Learned
+
+- DOM Selection
+- Event Listeners
+- Functions
+- Array
+- forEach()
+- textContent
+- innerHTML
+- Changing styles using JavaScript
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Joyjit**
 
-Learning JavaScript, DOM Manipulation, and Event Handling.
+Learning JavaScript and DOM Manipulation.

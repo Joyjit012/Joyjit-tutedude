@@ -13,9 +13,10 @@ let nameChange =()=>{
 
         topLevel.innerHTML= `<h1>Hello, ${inputValue}</h1>`;
         topLevel.style.backgroundColor = " grey";
+    });
 
 
-        let boxarr =["red" , "yellow" , "green" , "blue"];
+    let boxarr =["red" , "yellow" , "green" , "blue"];
 
 boxes.forEach((box , index)=>{
 
@@ -23,10 +24,6 @@ boxes.forEach((box , index)=>{
         box.style.background = boxarr[index];
     });
 });
-    });
-
-
-    
 
 
 }
